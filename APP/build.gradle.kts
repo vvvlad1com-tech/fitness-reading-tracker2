@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
+    // Плагін Compose для Kotlin 2.0+
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
@@ -36,10 +38,6 @@ android {
     }
     buildFeatures {
         compose = true
-    }
-    composeOptions {
-        // Версія розширення компілятора Compose для Kotlin 1.9.20
-        kotlinCompilerExtensionVersion = "1.5.4"
     }
 }
 
