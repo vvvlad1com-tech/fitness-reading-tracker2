@@ -38,7 +38,7 @@ android {
         compose = true
     }
     composeOptions {
-        // Версія 1.5.4 розроблена спеціально для Kotlin 1.9.20
+        // Версія розширення компілятора Compose для Kotlin 1.9.20
         kotlinCompilerExtensionVersion = "1.5.4"
     }
 }
