@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "YourProjectName"
-include(":app")
+include(":APP")
